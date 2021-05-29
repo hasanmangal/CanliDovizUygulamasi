@@ -1,0 +1,33 @@
+
+<mat-toolbar color="pink">
+  <mat-toolbar-row>
+
+    <span class="menu-spacer"></span>
+    <div class="m-2" >
+      <a mat-button [routerLink]="'/home'"> AnaSayfa </a>
+
+      <a mat-button [routerLink]="'/accounts'"> Hesaplar </a>
+
+      <a mat-button [routerLink]="'/create-account'"> Hesap Oluştur </a>
+      <a mat-button [routerLink]="'/contacts'"> İletişim </a>
+      <a mat-button [routerLink]="'/create-contact'"> Para Aktar </a>
+      <a mat-button [routerLink]="'/activities'"> İşlemler </a>
+      <a mat-button [routerLink]="'/share'" class="fa fa-facebook"> </a>
+      <a mat-button [routerLink]="'/share'" class="fa fa-twitter"> </a>
+      <a mat-button [routerLink]="'/share'" class="fa fa-google"> </a>
+      <a mat-button [routerLink]="'/share'" class="fa fa-linkedin"> </a>
+      <a mat-button [routerLink]="'/share'" class="fa fa-youtube"> </a>
+      <a mat-button [routerLink]="'/share'" class="fa fa-instagram"> </a>
+      <a mat-button [routerLink]="'/share'" class="fa fa-whatsapp"> </a>
+      <a mat-button [routerLink]="'/share'" class="fa fa-skype"> </a>
+      <a mat-button [routerLink]="'/share'" >TimeStamp: {{timeStamp}}</a>
+
+    </div>
+  </mat-toolbar-row>
+
+  <mat-toolbar-row>
+    <span style="font-size: 12px"
+      >10 saniye aralıklarla kendisini güncelleyen exchange sistemi</span
+    >
+  </mat-toolbar-row>
+</mat-toolbar>

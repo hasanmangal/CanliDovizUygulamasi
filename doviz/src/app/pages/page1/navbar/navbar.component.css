@@ -1,0 +1,17 @@
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+.fa {
+  padding: 2%;
+  font-size: 150%;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin-right: 2%;
+  margin-top: 5%;
+  border-radius: 50%;
+}
+
+
+
